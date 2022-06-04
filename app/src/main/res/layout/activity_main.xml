@@ -8,4 +8,10 @@
     tools:context=".MainActivity">
 
 
+    <fragment
+        android:tag="로그찍기"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="com.neppplus.fragment_20220604.fragments.LogFragment"/>
+
 </LinearLayout>
