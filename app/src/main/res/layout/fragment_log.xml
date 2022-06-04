@@ -8,6 +8,7 @@
     android:padding="20dp">
 
     <Button
+        android:id="@+id/btnLogInFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="프래그먼트에서 로그 찍기" />
