@@ -7,23 +7,38 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <fragment
-        android:tag="로그찍기"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        class="com.neppplus.fragment_20220604.fragments.LogFragment"/>
+        android:layout_height="match_parent" >
 
-    <fragment
-        android:tag="토스트 찍기"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="com.neppplus.fragment_20220604.fragments.ToastFragment" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <fragment
-        android:tag="로그찍기2"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="com.neppplus.fragment_20220604.fragments.LogFragment" />
+            <fragment
+                android:tag="로그찍기"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="com.neppplus.fragment_20220604.fragments.LogFragment"/>
+
+            <fragment
+                android:tag="토스트 찍기"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.neppplus.fragment_20220604.fragments.ToastFragment" />
+
+            <fragment
+                android:tag="로그찍기2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.neppplus.fragment_20220604.fragments.LogFragment" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 
 </LinearLayout>
